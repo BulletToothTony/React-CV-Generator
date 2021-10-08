@@ -57,7 +57,6 @@ code {
   gap: 3rem;
   background-color: rgb(204, 204, 204);
   padding: 3rem 6rem;
-  height: auto;
 }
 
 .leftDiv {
@@ -112,7 +111,7 @@ code {
   box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
 
 .genInfoDiv {
