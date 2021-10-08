@@ -6,7 +6,7 @@ const RenderEducation = () => {
     const data = useContext(AppContext);
     return (
       <section className="EducationSect">
-        <h3>Education</h3>
+        <h3 className="underlined">Education</h3>
         <p>{data.educationForm.University}</p>
         <p>{data.educationForm.City}</p>
       </section>

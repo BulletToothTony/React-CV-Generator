@@ -55,6 +55,13 @@ const Experience = () => {
           disabled={!editing}
           onChange={handleChange}
         ></input>
+         <input
+          type="text"
+          placeholder="To..."
+          name="To"
+          disabled={!editing}
+          onChange={handleChange}
+        ></input>
         <button type="submit" onClick={() => setEditing(false)} className="saveBtn">
           Save
         </button>

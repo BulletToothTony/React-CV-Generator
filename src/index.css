@@ -85,7 +85,6 @@ code {
   background-color: rgb(51, 51, 51);
 }
 
-
 .rightDiv {
   background-color: rgb(238, 238, 238);
   padding: 1rem;
@@ -100,16 +99,37 @@ code {
 .genInfoDiv {
   grid-column: span 5;
   grid-row: span 2;
-  background-color: rgb(0, 71, 202);
+  /* background-color: rgb(137, 135, 253); */
+  text-align: center;
 }
 
 .genInfoDiv h1 {
   font-size: 2.5rem;
+  margin-top: 5px;
+}
+
+.underlined {
+  border-bottom: 1px solid grey;
+  color: #004dff;
+  width: 1000px;
 }
 
 .rightDiv h3 {
   width: 200px;
-  border-bottom: 1px solid grey;
+}
+
+.genInfoDiv p {
+  text-align: left;
+}
+
+.h2Left {
+  float: left;
+  padding-left: 10px;
+}
+
+.h2Right {
+  float: right;
+  padding-right: 10px;
 }
 
 .ExperienceSect {

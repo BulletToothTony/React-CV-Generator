@@ -69,6 +69,20 @@ const GenInfo = () => {
           disabled={!editing}
           onChange={handleChange}
         ></input>
+        <input
+          type="text"
+          placeholder="Address..."
+          name="Address"
+          disabled={!editing}
+          onChange={handleChange}
+        ></input>
+        <input
+          type="text"
+          placeholder="Description..."
+          name="Description"
+          disabled={!editing}
+          onChange={handleChange}
+        ></input>
         <button type="submit" onClick={() => setEditing(false)} className="saveBtn">
           Save
         </button>
