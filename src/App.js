@@ -16,8 +16,13 @@ function App() {
   return (
 
     <div>
-      <div className="navBar"><h1>CV Generator</h1>
-      <button onClick={data.loadDefaultInfo}>Load Default Info</button>
+      <div className="navBar">
+        <div style={{width: "75%"}}>
+        <h1>CV Generator</h1>
+        </div>
+        <div style={{textAlign: "center"}}>
+        <button className="btnNav" onClick={data.loadDefaultInfo}>Load Default Info</button>
+        </div>
 
       </div>
 
