@@ -15,7 +15,7 @@ const RenderGenInfo = () => {
       <h3 className="h2Left">{data.personalInfoForm.PhoneNumber}</h3>
       <h3 className="h2Right">{data.personalInfoForm.Email}</h3>
       <h4 style={{float: "left", marginRight: "10000px"}}>Description</h4>     
-      <p style={{fontStyle: "italic"}}>{data.personalInfoForm.Description}</p>
+      <p style={{fontStyle: "italic", marginTop: "75px"}}>{data.personalInfoForm.Description}</p>
     </div>
   );
 };
