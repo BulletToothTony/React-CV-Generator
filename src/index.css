@@ -159,3 +159,59 @@ code {
   grid-row: 4/5;
   grid-column: 1/6;
 }
+
+
+.mainDark {
+  display: flex;
+  gap: 3rem;
+  padding: 3rem 6rem;
+  background-color: rgb(35, 37, 52);
+}
+
+.leftDark {
+  background-color: rgb(39, 43, 71);
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.leftDark input {
+  width: 95%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  height: 2rem;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.leftDark h1 {
+  font-size: 1.5rem;
+}
+
+.rightDark {
+  background-color: rgb(39, 43, 71);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  color: rgb(182, 182, 182);
+}
+
+
+.rightDark h3 {
+  width: 200px;
+}
+
+.rightDark h2 {
+  color: white;
+}
+
+.rightDark .underlined {
+  color: white
+}

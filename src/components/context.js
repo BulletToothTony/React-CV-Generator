@@ -6,6 +6,7 @@ const AppProvider = ({ children }) => {
   const [personalInfoForm, setPersonalInfoForm] = useState({});
   const [experienceForm, setExperienceForm] = useState({});
   const [educationForm, setEducationForm] = useState({});
+  const [darkMode, setDarkMode] = useState(false)
 
   const submitPersonalInfoForm = (pinfo) => {
     setPersonalInfoForm(pinfo);
@@ -18,6 +19,10 @@ const AppProvider = ({ children }) => {
   const submitEducationFom = (einfo) => {
     setEducationForm(einfo);
   };
+
+  const setDarkTheme = () => {
+    setDarkMode(!darkMode)
+  }
 
   const loadDefaultInfo = () => {
     setPersonalInfoForm({
@@ -58,7 +63,9 @@ const AppProvider = ({ children }) => {
         educationForm,
         setEducationForm,
         submitEducationFom,
-        loadDefaultInfo
+        loadDefaultInfo,
+        darkMode,
+        setDarkTheme
       }}
     >
       {children}
